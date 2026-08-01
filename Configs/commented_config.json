@@ -1,0 +1,11 @@
+{
+    "Debug": false,
+    "Mysql": {
+        "Host": "",
+        "User": "",
+        "Password": "",
+        "Database": "",
+        "Port": 3306
+    },
+    "ServerNames": {}
+}

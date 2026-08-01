@@ -1,0 +1,22 @@
+# Build output
+/x64/
+obj/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.slnx
+
+# Build artifacts
+*.dll
+*.lib
+*.exp
+*.pdb
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+*.ipch
+
+# Local server config (may contain DB credentials / secrets)
+Configs/config.json

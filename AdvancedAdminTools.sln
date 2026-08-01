@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.8.12023.21 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdvancedAdminTools", "AdvancedAdminTools\AdvancedAdminTools.vcxproj", "{4D82D047-9931-4B04-89F5-B325BA28565F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D82D047-9931-4B04-89F5-B325BA28565F}.Debug|x64.ActiveCfg = Debug|x64
+		{4D82D047-9931-4B04-89F5-B325BA28565F}.Debug|x64.Build.0 = Debug|x64
+		{4D82D047-9931-4B04-89F5-B325BA28565F}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D82D047-9931-4B04-89F5-B325BA28565F}.Debug|x86.Build.0 = Debug|Win32
+		{4D82D047-9931-4B04-89F5-B325BA28565F}.Release|x64.ActiveCfg = Release|x64
+		{4D82D047-9931-4B04-89F5-B325BA28565F}.Release|x64.Build.0 = Release|x64
+		{4D82D047-9931-4B04-89F5-B325BA28565F}.Release|x86.ActiveCfg = Release|Win32
+		{4D82D047-9931-4B04-89F5-B325BA28565F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {213F8561-66AA-492C-8907-C587D66DB067}
+	EndGlobalSection
+EndGlobal
