@@ -1,7 +1,7 @@
 {
   "FullName": "Advanced Admin Tools",
   "Description": "Advanced admin tooling for ASA servers.",
-  "Version": 1.0,
+  "Version": 1.03,
   "MinApiVersion": 2.02,
   "Dependencies": []
 }

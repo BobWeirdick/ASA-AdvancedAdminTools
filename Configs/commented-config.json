@@ -1,0 +1,14 @@
+{
+    "Debug": false, // Adds extra console logging for debugging purposes
+    "Mysql": { // MySQL credentials, no use-case yet
+        "Host": "",
+        "User": "",
+        "Password": "",
+        "Database": "",
+        "Port": 3306
+    },
+    "ServerNames": { // Server name mapping for more readable server names using the serverkey as the unique identifier
+        "Server1": "Friendly Server 1 Name",
+        "Server2": "Friendly Server 2 Name"
+    } 
+}

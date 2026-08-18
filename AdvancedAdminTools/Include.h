@@ -75,9 +75,30 @@ inline bool JsonGetBool(const json& j, const char* key, bool default_val = false
 void InitServerKey(std::string& outServerKey);
 bool LoadConfig();
 
-// Returns empty string on success, otherwise an error/usage message.
 std::string DefeatBossExecute(const FString& cmd);
 void DefeatBossCmd(APlayerController* player_controller, FString* cmd, bool);
 void DefeatBossRcon(RCONClientConnection* rcon_connection, RCONPacket* rcon_packet, UWorld*);
 
 void ChatCmd_DumpBosses(AShooterPlayerController* pc, FString* message, int mode, int platform);
+
+std::string CompleteMissionExecute(const FString& cmd);
+void CompleteMissionCmd(APlayerController* player_controller, FString* cmd, bool);
+void CompleteMissionRcon(RCONClientConnection* rcon_connection, RCONPacket* rcon_packet, UWorld*);
+
+std::string CompleteGenesisMissionsExecute(const FString& cmd);
+void CompleteGenesisMissionsCmd(APlayerController* player_controller, FString* cmd, bool);
+void CompleteGenesisMissionsRcon(RCONClientConnection* rcon_connection, RCONPacket* rcon_packet, UWorld*);
+
+void ChatCmd_DumpMissions(AShooterPlayerController* pc, FString* message, int mode, int platform);
+
+std::string ListTribeDinosExecute(const FString& cmd);
+void ListTribeDinosCmd(APlayerController* player_controller, FString* cmd, bool);
+void ListTribeDinosRcon(RCONClientConnection* rcon_connection, RCONPacket* rcon_packet, UWorld*);
+
+std::string TeleportDinoToPlayerExecute(const FString& cmd);
+void TeleportDinoToPlayerCmd(APlayerController* player_controller, FString* cmd, bool);
+void TeleportDinoToPlayerRcon(RCONClientConnection* rcon_connection, RCONPacket* rcon_packet, UWorld*);
+
+std::string TeleportDinoToLocationExecute(const FString& cmd);
+void TeleportDinoToLocationCmd(APlayerController* player_controller, FString* cmd, bool);
+void TeleportDinoToLocationRcon(RCONClientConnection* rcon_connection, RCONPacket* rcon_packet, UWorld*);
